@@ -134,10 +134,6 @@ def play(board)
   end
 end
 
-
-
-end
-
 # def play(board)
 #   turn = 0
 #   until turn == 9
