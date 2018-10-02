@@ -122,7 +122,7 @@ def winner(board)
 end
 
 def play(board)
-  until over?(board) == true
+  while over?(board) == true do
     turn(board)
     if winner(board) == "X"
       puts "Congratulations X!"
