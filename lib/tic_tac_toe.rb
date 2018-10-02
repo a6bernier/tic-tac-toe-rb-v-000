@@ -131,7 +131,6 @@ def play(board)
       puts "Congratulations O!"
     elsif draw?(board) == true
       puts "Cat's Game!"
-    end
   end
 end
 
